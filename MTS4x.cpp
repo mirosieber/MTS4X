@@ -86,7 +86,7 @@ float MTS4X::readTemperature(bool waitOnNewVal){
   uint8_t lsb = Wire.read();
   uint8_t msb = Wire.read();
 
-  uint16_t rawTemp = ((uint16_t)msb << 8) | lsb;
+  int16_t rawTemp = (msb << 8) | lsb;
   
   return MTS4X_RAW_TO_CELSIUS(rawTemp);
 }
@@ -103,3 +103,4 @@ bool MTS4X::inProgress(){
   uint8_t status = Wire.read();
   return (status & 0x20) != 0;
 }
+
