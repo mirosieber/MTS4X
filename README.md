@@ -67,14 +67,6 @@ Connect the MTS4X sensor to your Arduino board:
 - Allow sensor to stabilize after power-on (typically 1-2 seconds)
 - Increase averaging to reduce noise
 
-## License
-
-This library is released under the MIT License. See LICENSE file for details. 
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Author
-
-Miro Sieber
