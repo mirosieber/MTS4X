@@ -1,0 +1,44 @@
+#######################################
+# Syntax Coloring Map for MTS4X
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MTS4X	KEYWORD1
+MeasurementMode	KEYWORD1
+TempCfgMPS	KEYWORD1
+TempCfgAVG	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+startSingleMessurement	KEYWORD2
+setMode	KEYWORD2
+setConfig	KEYWORD2
+readTemperature	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MEASURE_CONTINUOUS	LITERAL1
+MEASURE_STOP	LITERAL1
+MEASURE_SINGLE	LITERAL1
+
+MPS_8Hz	LITERAL1
+MPS_4Hz	LITERAL1
+MPS_2Hz	LITERAL1
+MPS_1Hz	LITERAL1
+MPS_0_5Hz	LITERAL1
+MPS_0_25Hz	LITERAL1
+MPS_0_125Hz	LITERAL1
+MPS_0_0625Hz	LITERAL1
+
+AVG_1	LITERAL1
+AVG_8	LITERAL1
+AVG_16	LITERAL1
+AVG_32	LITERAL1
